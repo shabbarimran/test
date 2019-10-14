@@ -1,8 +1,0 @@
-<html>
-<head>
-<title> Loading</title>
-</head>
-<body>
-site is workgin
-</body>
-</html>
