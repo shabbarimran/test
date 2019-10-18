@@ -5,7 +5,8 @@
 
 trigger:
 - master
-- newbranch/*
+- newbranch
+- banao/*
 
 pool:
   vmImage: 'ubuntu-latest'
