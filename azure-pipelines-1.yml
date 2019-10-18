@@ -4,7 +4,8 @@
 # https://aka.ms/yaml
 
 trigger:
-- newbranch
+- master
+- newbranch/*
 
 pool:
   vmImage: 'ubuntu-latest'
