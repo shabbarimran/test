@@ -4,6 +4,8 @@
 # https://aka.ms/yaml
 trigger:
   branches:
+    include:
+    - master
     exclude:
       - bana/*
 
