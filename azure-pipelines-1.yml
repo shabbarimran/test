@@ -8,7 +8,15 @@ trigger:
     - master
     exclude:
       - bana/*
-
+on:
+    push:
+      branches:
+      - master
+      - 'mona/octocat'
+      - 'releases/**'
+      tags:
+      - v1
+      - v1.*
 pool:
   vmImage: 'ubuntu-latest'
 
